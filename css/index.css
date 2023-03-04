@@ -1,0 +1,43 @@
+body {
+    background-image: url('../images/giphy.gif');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+}
+
+.index-wrapper {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 15%;
+}
+
+.index-wrapper a {
+    margin-bottom: 1em;
+}
+
+a {
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Smooch', cursive;
+    color: rgb(47, 189, 34);
+    font-weight: 600;
+    font-size: 8rem;
+}
